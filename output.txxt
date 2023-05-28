@@ -1,0 +1,78 @@
+Docker version: Docker version 20.10.21, build 20.10.21-0ubuntu1~20.04.2
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+
+my-redis
+CONTAINER ID   IMAGE                COMMAND                  CREATED              STATUS                              PORTS                                       NAMES
+02673e727a94   hello-world          "/hello"                 1 second ago         Exited (0) Less than a second ago                                               mystifying_hoover
+e3c1cc41c85e   nginx:alpine         "/docker-entrypoint.…"   About a minute ago   Up About a minute                   80/tcp                                      my-nginx
+e2431bbc7773   redis                "docker-entrypoint.s…"   About a minute ago   Exited (0) About a minute ago                                                   my-redis
+0f28848a3889   hello-world          "/hello"                 About a minute ago   Exited (0) About a minute ago                                                   lucid_lamarr
+36846e1f85b3   nginx:alpine         "/docker-entrypoint.…"   10 minutes ago       Up 10 minutes                       80/tcp                                      web
+a6d2b9bb7136   ubuntu               "sleep 1000"             11 minutes ago       Up 11 minutes                                                                   my-ubuntu
+3f4e03bcd848   redis                "docker-entrypoint.s…"   20 minutes ago       Exited (0) 19 minutes ago                                                       cool_ishizaka
+712dcad01c62   redis                "docker-entrypoint.s…"   22 minutes ago       Up 22 minutes                       6379/tcp                                    recursing_thompson
+20ddb6e71541   hello-world          "/hello"                 25 minutes ago       Exited (0) 25 minutes ago                                                       kind_bassi
+d7aa691a064c   hello-world          "/hello"                 26 minutes ago       Exited (0) 26 minutes ago                                                       cool_shannon
+75825b94b7ce   hello-world          "/hello"                 27 minutes ago       Exited (0) 27 minutes ago                                                       funny_feynman
+c9cb8e3c6da5   hello-world          "/hello"                 27 minutes ago       Exited (0) 27 minutes ago                                                       cool_stonebraker
+9d039f6eabe4   hello-world          "/hello"                 28 minutes ago       Exited (0) 28 minutes ago                                                       stupefied_hawking
+c54629b698e3   hello-world          "/hello"                 29 minutes ago       Exited (0) 29 minutes ago                                                       focused_allen
+8bad36b3aaf4   django-img-sprints   "/bin/sh -c 'python …"   4 days ago           Exited (255) 2 days ago             0.0.0.0:8000->8000/tcp, :::8000->8000/tcp   suspicious_visvesvaraya
+312d4cff1efc   0670287dd993         "/bin/sh -c 'python …"   4 days ago           Exited (137) 4 days ago                                                         jolly_kirch
+56424af3017c   f3b028414b76         "/bin/sh -c 'python …"   4 days ago           Exited (137) 4 days ago                                                         musing_pike
+e6949f64cfd0   f3b028414b76         "/bin/sh -c 'python …"   4 days ago           Created                                                                         romantic_haibt
+2fb778df5442   c40d704ad32b         "/bin/sh -c 'python …"   4 days ago           Exited (137) 4 days ago                                                         mystifying_ellis
+c285be545c6f   python               "python3"                4 days ago           Exited (0) 4 days ago                                                           quirky_cohen
+df19b1af26a2   mydjangoapp:1.0      "/bin/sh -c 'python …"   4 days ago           Exited (137) 4 days ago                                                         vigilant_herschel
+Redis container ID: e2431bbc77731535207e964ddb1fe0cea658fa4de323eef084c1f378b7630339
+1.14-alpine: Pulling from library/nginx
+bdf0201b3a05: Pulling fs layer
+3d0a573c81ed: Pulling fs layer
+8129faeb2eb6: Pulling fs layer
+3dc99f571daf: Pulling fs layer
+3dc99f571daf: Waiting
+8129faeb2eb6: Verifying Checksum
+8129faeb2eb6: Download complete
+bdf0201b3a05: Verifying Checksum
+bdf0201b3a05: Download complete
+bdf0201b3a05: Pull complete
+3dc99f571daf: Verifying Checksum
+3dc99f571daf: Download complete
+3d0a573c81ed: Verifying Checksum
+3d0a573c81ed: Download complete
+3d0a573c81ed: Pull complete
+8129faeb2eb6: Pull complete
+3dc99f571daf: Pull complete
+Digest: sha256:485b610fefec7ff6c463ced9623314a04ed67e3945b9c08d7e53a47f6d108dc7
+Status: Downloaded newer image for nginx:1.14-alpine
+docker.io/library/nginx:1.14-alpine
+Deleted Images:
+untagged: nginx:1.14-alpine
+untagged: nginx@sha256:485b610fefec7ff6c463ced9623314a04ed67e3945b9c08d7e53a47f6d108dc7
+deleted: sha256:8a2fb25a19f5dc1528b7a3fabe8b3145ff57fe10e4f1edac6c718a3cf4aa4b73
+deleted: sha256:f68a8bcb9dbd06e0d2750eabf63c45f51734a72831ed650d2349775865d5fc20
+deleted: sha256:cbf2c7789332fe231e8defa490527a7b2c3ae8589997ceee00895f3263f0a8cf
+deleted: sha256:894f3fad7e6ecd7f24e88340a44b7b73663a85c0eb7740e7ade169e9d8491a4c
+deleted: sha256:a464c54f93a9e88fc1d33df1e0e39cca427d60145a360962e8f19a1dbf900da9
+
+Total reclaimed space: 16.03MB
